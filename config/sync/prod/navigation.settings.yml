@@ -1,6 +1,6 @@
 logo:
   provider: custom
-  path: themes/custom/plp_drupal_cms_olivero_subtheme/logo.svg
+  path: themes/custom/plp_drupal_cms_olivero_subtheme/logo.png
   max:
     filesize: 1048576
     height: 40

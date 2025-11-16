@@ -2,9 +2,9 @@ _core:
   default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
 langcode: en
 uuid: 0fc6b60f-7899-40f0-8573-bcc83df50300
-name: IngatlanER
-mail: botondhegedus@gmail.com
-slogan: ''
+name: 'Pedró Pékség'
+mail: hegedus.botond@pedropekseg.hu
+slogan: 'A vidék íze'
 page:
   403: /user/login
   404: /node/3
