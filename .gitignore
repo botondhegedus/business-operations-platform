@@ -1,65 +1,114 @@
-# gitignore template for Drupal 8 projects
-#
-# earlier versions of Drupal are tracked in `community/PHP/`
-#
-# follows official upstream conventions:
-# https://www.drupal.org/docs/develop/using-composer
+# ------------------------------------------------------------------------------
+# 🔒 LOCAL DEV TOOLS & IDE FILES
+# ------------------------------------------------------------------------------
+.ddev
+!.ddev/.gitkeep
+!.ddev/config.example.yaml
+.idea
+.vscode
+*.code-workspace
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+/.env
+/.env.local
+/.env.*.local
 
-# Ignore configuration files that may contain sensitive information
-/web/sites/*/*settings*.php
-/web/sites/*/*services*.yml
-
-# Ignore paths that may contain user-generated content
-/web/sites/*/files
-/web/sites/*/public
-/web/sites/*/private
-/web/sites/*/files-public
-/web/sites/*/files-private
-
-# Ignore paths that may contain temporary files
-/web/sites/*/translations
-/web/sites/*/tmp
-/web/sites/*/cache
-
-# Ignore drupal core (if not versioning drupal sources)
+# ------------------------------------------------------------------------------
+# 📦 COMPOSER & DEPENDENCIES
+# ------------------------------------------------------------------------------
+/vendor
 /web/vendor
 /web/core
-/web/modules/README.txt
 /web/modules/contrib
-/web/profiles/README.txt
+/web/themes/contrib
 /web/profiles/contrib
+/web/recipes
+/node_modules
+
+# ------------------------------------------------------------------------------
+# 🧠 DRUPAL AUTO-GENERATED FILES
+# ------------------------------------------------------------------------------
+/files
+/web/sites/*/files
+/web/sites/*/private
+/web/sites/*/public
+/web/sites/*/files-public
+/web/sites/*/files-private
+/web/sites/*/tmp
+/web/sites/*/translations
+/web/sites/*/cache
+/web/sites/*/settings.*.php
+/web/sites/*/*settings*.php
+/web/sites/*/*services*.yml
 /web/sites/development.services.yml
 /web/sites/example.settings.local.php
 /web/sites/example.sites.php
-/web/sites/README.txt
-/web/themes/README.txt
-/web/themes/contrib
-/web/.csslintrc
-/web/.editorconfig
-/web/.eslintignore
-/web/.eslintrc.json
-/web/.gitattributes
-/web/.htaccess
-/web/.ht.router.php
+
+# ------------------------------------------------------------------------------
+# 📄 COMMON WEB ROOT FILES (Rebuildable or Default)
+# ------------------------------------------------------------------------------
 /web/autoload.php
-/web/composer.json
 /web/composer.lock
-/web/example.gitignore
 /web/index.php
-/web/INSTALL.txt
-/web/LICENSE.txt
-/web/README.txt
-/web/robots.txt
 /web/update.php
 /web/web.config
+/web/modules/README.txt
+/web/profiles/README.txt
+/web/sites/README.txt
+/web/themes/README.txt
+/web/README.txt
+/web/INSTALL.txt
+/web/LICENSE.txt
+/web/robots.txt
+/web/.htaccess
+/web/.editorconfig
+/web/.csslintrc
+/web/.eslintrc.json
+/web/.eslintignore
+/web/.ht.router.php
+/web/.gitattributes
+/web/example.gitignore
+/web/composer.json
 
-# Ignore vendor dependencies and scripts
-/vendor
+# ------------------------------------------------------------------------------
+# 🔧 EXECUTABLES & BINARY TOOLS
+# ------------------------------------------------------------------------------
 /composer.phar
-/composer
 /robo.phar
-/robo
 /drush.phar
-/drush
 /drupal.phar
+/drush
+/robo
 /drupal
+
+# ------------------------------------------------------------------------------
+# 📚 LIBRARIES (Managed by composer or front-end tools)
+# ------------------------------------------------------------------------------
+/web/libraries/*
+!web/libraries/.gitkeep  # allow placeholder if needed
+!web/libraries/custom
+
+# ------------------------------------------------------------------------------
+# Exclude Logs
+# ------------------------------------------------------------------------------
+/logs
+/web/sites/*/logs
+
+# ------------------------------------------------------------------------------
+# Exclude PHP Unit and Test Artifacts
+# ------------------------------------------------------------------------------
+/.phpunit.result.cache
+/phpunit.xml
+/web/sites/simpletest
+/coverage
+
+# ------------------------------------------------------------------------------
+# Exclude Database Dumps
+# ------------------------------------------------------------------------------
+*.sql
+*.sqlite
+*.sql.gz
