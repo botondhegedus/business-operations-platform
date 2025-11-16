@@ -1,0 +1,16 @@
+<?php
+
+use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
+use Drupal\user\UserInterface;
+
+/**
+ * Implements hook_user_login().
+ */
+function secure_admin_user_login(UserInterface $account)
+{
+  if ($account->id() == 1) {
+    \Drupal::logger('secure_admin')->alert('User ID 1 logged in');
+
+    throw new AccessDeniedHttpException();
+  }
+}

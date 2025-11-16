@@ -1,0 +1,44 @@
+uuid: 1c7344aa-c702-4d3a-a2d0-7f6ce52334bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.welcome
+    - filter.format.content_format
+    - filter.format.restricted_html
+    - node.type.page
+  module:
+    - captcha
+    - coffee
+    - dashboard
+    - eu_cookie_compliance
+    - file
+    - filter
+    - honeypot
+    - klaro
+    - media
+    - navigation
+    - node
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: User
+weight: 1
+is_admin: false
+permissions:
+  - 'access coffee'
+  - 'access content'
+  - 'access navigation'
+  - 'bypass honeypot protection'
+  - 'create page content'
+  - 'delete own files'
+  - 'display eu cookie compliance popup'
+  - 'edit own page content'
+  - 'skip CAPTCHA'
+  - 'use klaro'
+  - 'use text format content_format'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view welcome dashboard'

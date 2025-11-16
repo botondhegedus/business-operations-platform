@@ -1,0 +1,7 @@
+name: "Secure Admin"
+type: module
+description: "Drupal 11 module to harden admin user security, with temporary password handling."
+core_version_requirement: ^11
+package: Security
+dependencies:
+  - user

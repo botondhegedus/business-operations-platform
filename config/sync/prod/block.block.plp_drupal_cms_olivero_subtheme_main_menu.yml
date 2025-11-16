@@ -1,0 +1,27 @@
+uuid: 1c7e1dc5-92fc-44ee-87a3-f43a7a91a7f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: IYx37JlV-JCEqldSOUCsYu6gh4RpwuLDPpoeQcEF7mk
+id: plp_drupal_cms_olivero_subtheme_main_menu
+theme: plp_drupal_cms_olivero_subtheme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

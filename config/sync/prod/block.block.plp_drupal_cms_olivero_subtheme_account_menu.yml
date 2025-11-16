@@ -1,0 +1,27 @@
+uuid: f3753519-ab36-47f4-879b-34fd41c7091f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: DxdLrNHPG9b5uQwKs4BJ9R5e8_jtJsQDY8rqliXtd9w
+id: plp_drupal_cms_olivero_subtheme_account_menu
+theme: plp_drupal_cms_olivero_subtheme
+region: secondary_menu
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

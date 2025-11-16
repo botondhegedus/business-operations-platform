@@ -1,0 +1,9 @@
+uuid: 3b14e168-8074-45dd-aa4f-fdce4b6ccc48
+langcode: en
+status: true
+dependencies: {  }
+id: essential_cookies
+label: 'Essential Cookies'
+description: "These cookies are strictly necessary for the website to function. They enable basic functions like page navigation, access to secure areas, and form submissions.\r\n\r\nExamples: session ID, CSRF tokens."
+checkbox_default_state: required
+weight: -9

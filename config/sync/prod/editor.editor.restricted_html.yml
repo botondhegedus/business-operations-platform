@@ -1,0 +1,41 @@
+uuid: b23fb5b8-f69e-44af-988b-f55f914a0fc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - ckeditor5
+format: restricted_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - undo
+      - redo
+      - '|'
+      - heading
+      - bold
+      - italic
+      - '|'
+      - bulletedList
+      - numberedList
+      - '|'
+      - link
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_list:
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
+    linkit_extension:
+      linkit_enabled: false
+image_upload:
+  status: false

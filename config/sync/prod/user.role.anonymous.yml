@@ -1,0 +1,20 @@
+uuid: ad45c175-f8a6-473f-82b6-b9705f675341
+langcode: en
+status: true
+dependencies:
+  module:
+    - eu_cookie_compliance
+    - klaro
+    - media
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: Visitor
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'display eu cookie compliance popup'
+  - 'use klaro'
+  - 'view media'

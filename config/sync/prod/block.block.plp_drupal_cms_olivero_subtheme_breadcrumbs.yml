@@ -1,0 +1,22 @@
+uuid: cf56cbdc-4be7-4c2e-84be-f2f88a9eae29
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: rUKMsaj4XvIHtU3kRiHIA6Rkn4IHzCkhTiUZudMkp14
+id: plp_drupal_cms_olivero_subtheme_breadcrumbs
+theme: plp_drupal_cms_olivero_subtheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

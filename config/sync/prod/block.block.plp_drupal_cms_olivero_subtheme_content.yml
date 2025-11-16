@@ -1,0 +1,22 @@
+uuid: b1361178-6d78-492f-85a0-ef045e50b5db
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: G4iNGvy_k2yNIEH_FJmbkvgBBar1etJIhKJYuygT7hU
+id: plp_drupal_cms_olivero_subtheme_content
+theme: plp_drupal_cms_olivero_subtheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

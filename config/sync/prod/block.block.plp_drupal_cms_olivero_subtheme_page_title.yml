@@ -1,0 +1,20 @@
+uuid: a0c8588d-3a27-4ed6-86ea-e43aeba5ada9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: dY7_Wihz9ohfBPKP554_brUfc9nPaecShShmC_VTGRM
+id: plp_drupal_cms_olivero_subtheme_page_title
+theme: plp_drupal_cms_olivero_subtheme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: d04d18b3-55b5-41db-961d-9615ed1e9585
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: MX2iS2rMC2lQ-sUFnOKksJ01S2lh0j5-80hKkdDmHkI
+id: plp_drupal_cms_olivero_subtheme_site_branding
+theme: plp_drupal_cms_olivero_subtheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

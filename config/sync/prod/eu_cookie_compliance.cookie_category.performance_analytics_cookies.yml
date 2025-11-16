@@ -1,0 +1,9 @@
+uuid: 0e1c1343-3272-4da1-b3d2-978171a069b2
+langcode: en
+status: true
+dependencies: {  }
+id: performance_analytics_cookies
+label: 'Performance & Analytics Cookies'
+description: "These cookies collect information about how visitors use the site (e.g., which pages are visited most often). We use this data to improve website usability and content.\r\n\r\nExamples: Google Analytics, Matomo."
+checkbox_default_state: unchecked
+weight: -8

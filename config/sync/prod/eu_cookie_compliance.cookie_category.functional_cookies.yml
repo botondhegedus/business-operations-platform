@@ -1,0 +1,9 @@
+uuid: 11bd3969-1927-4fa5-93a5-82d205ca2d17
+langcode: en
+status: true
+dependencies: {  }
+id: functional_cookies
+label: 'Functional Cookies'
+description: "These cookies allow the site to remember user choices and provide enhanced, personalized features (e.g., language preferences).\r\n\r\nExamples: saved searches, custom settings."
+checkbox_default_state: checked
+weight: -7

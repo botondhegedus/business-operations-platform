@@ -1,0 +1,22 @@
+uuid: 81c42e3e-1cf8-400c-9552-daf2ecb2ab87
+langcode: en
+status: true
+dependencies:
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: A_KsAw1fyIvdBubmxkvtCtoSuV62cVV-p0RSPnvqc9U
+id: plp_drupal_cms_olivero_subtheme_primary_local_tasks
+theme: plp_drupal_cms_olivero_subtheme
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

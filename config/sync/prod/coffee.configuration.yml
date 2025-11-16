@@ -1,0 +1,8 @@
+coffee_menus:
+  admin: admin
+  content: content
+  main: main
+  navigation-user-links: navigation-user-links
+  tools: tools
+  account: account
+max_results: 7

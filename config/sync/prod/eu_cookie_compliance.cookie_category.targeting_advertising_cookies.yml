@@ -1,0 +1,9 @@
+uuid: 4aecea1d-7440-48b1-8833-d28a6a91cba0
+langcode: en
+status: true
+dependencies: {  }
+id: targeting_advertising_cookies
+label: 'Targeting & Advertising Cookies'
+description: "These cookies are used to deliver advertisements more relevant to your interests and measure ad effectiveness. They may track your activity across different websites.\r\n\r\nExamples: Facebook Pixel, Google Ads, remarketing tools."
+checkbox_default_state: unchecked
+weight: -6

@@ -1,0 +1,6 @@
+services:
+  secure_admin.subscriber:
+    class: Drupal\secure_admin\EventSubscriber\SecureAdminSubscriber
+    arguments: ['@current_user']
+    tags:
+      - { name: event_subscriber }

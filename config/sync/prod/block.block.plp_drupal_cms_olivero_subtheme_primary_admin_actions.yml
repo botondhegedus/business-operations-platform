@@ -1,0 +1,20 @@
+uuid: f63454bd-42dd-404b-ab49-d85c9af7a1a9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - plp_drupal_cms_olivero_subtheme
+_core:
+  default_config_hash: bXIY_bcTLD1-0gwNQhWPHANNy6hQa_RxJgvHxKhNS2E
+id: plp_drupal_cms_olivero_subtheme_primary_admin_actions
+theme: plp_drupal_cms_olivero_subtheme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

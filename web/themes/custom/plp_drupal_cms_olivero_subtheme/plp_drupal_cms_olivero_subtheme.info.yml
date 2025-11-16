@@ -1,0 +1,8 @@
+name: 'PLP Drupal-CMS Olivero Subtheme'
+type: theme
+description: 'PLP site specific sub-theme of Olivero.'
+core_version_requirement: ^11
+base theme: olivero
+package: Custom
+libraries:
+  - plp_drupal_cms_olivero_subtheme/global-styling
